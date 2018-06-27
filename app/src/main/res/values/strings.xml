@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Tech News</string>
+    <string name="news_thumbnail">News Thumbnail</string>
+    <string name="news_heading">News Heading</string>
+    <string name="no_internet_connection">No Internet connection</string>
+</resources>

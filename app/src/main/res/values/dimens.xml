@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="top_and_bottom_margin">8dp</dimen>
+    <dimen name="card_elevation">16dp</dimen>
+    <dimen name="card_corner_radius">10dp</dimen>
+    <dimen name="start_and_end_margin">10dp</dimen>
+    <dimen name="universal_margin">10dp</dimen>
+    <dimen name="news_heading_text_size">24sp</dimen>
+    <dimen name="author_name_text_size">20sp</dimen>
+    <dimen name="date_and_category_text_size">18sp</dimen>
+    <dimen name="img_thumbnail_height">150dp</dimen>
+</resources>
