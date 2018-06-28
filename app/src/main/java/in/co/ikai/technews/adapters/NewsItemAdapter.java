@@ -3,6 +3,7 @@ package in.co.ikai.technews.adapters;
 import android.content.Context;
 import android.net.Uri;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,7 +50,7 @@ public class NewsItemAdapter extends ArrayAdapter<NewsDataModel> {
         if (currentNews != null) {
             holder.titleTextView.setText(currentNews.getTitle());
             Glide.with(mContext)
-                    .load(Uri.parse(currentNews.getUrl()))
+                    .load(Uri.parse(currentNews.getThumbnail()))
                     .thumbnail(0.3f)
                     .into(holder.thumbnailImageView);
 
